@@ -217,8 +217,14 @@ dicts = [
                 "Arrest Date": "09/23/2020",
                 "Complaint Date": "10/12/2021",
                 "Items": [
-                    {"Date": "01/11/2022", "Status": "Awaiting Filing of Information"},
-                    {"Date": "01/10/2022", "Status": "Awaiting Pre-Trial Conference"},
+                    {
+                        "Status Date": "01/11/2022",
+                        "Processing Status": "Awaiting Filing of Information",
+                    },
+                    {
+                        "Status Date": "01/10/2022",
+                        "Processing Status": "Awaiting Pre-Trial Conference",
+                    },
                 ],
             },
             "Calendar Events": [
@@ -434,8 +440,8 @@ dicts = [
                 "Case Status": "Closed",
                 "Items": [
                     {
-                        "Date": "01/11/2022",
-                        "Status": "Completed",
+                        "Status Date": "01/11/2022",
+                        "Processing Status": "Completed",
                     }
                 ],
             },
@@ -488,16 +494,16 @@ dicts = [
                 "Case Status": "Active",
                 "Items": [
                     {
-                        "Date": "01/13/2022",
-                        "Status": "Awaiting Preliminary Hearing",
+                        "Status Date": "01/13/2022",
+                        "Processing Status": "Awaiting Preliminary Hearing",
                     },
                     {
-                        "Date": "01/12/2022",
-                        "Status": "Awaiting Preliminary Hearing",
+                        "Status Date": "01/12/2022",
+                        "Processing Status": "Awaiting Preliminary Hearing",
                     },
                     {
-                        "Date": "01/11/2022",
-                        "Status": "Awaiting Preliminary Hearing",
+                        "Status Date": "01/11/2022",
+                        "Processing Status": "Awaiting Preliminary Hearing",
                     },
                 ],
             },
@@ -653,20 +659,20 @@ dicts = [
                 "Case Status": "Closed",
                 "Items": [
                     {
-                        "Date": "01/19/2022",
-                        "Status": "Case Balance Due",
+                        "Status Date": "01/19/2022",
+                        "Processing Status": "Case Balance Due",
                     },
                     {
-                        "Date": "01/19/2022",
-                        "Status": "Case Disposed/Penalty Imposed",
+                        "Status Date": "01/19/2022",
+                        "Processing Status": "Case Disposed/Penalty Imposed",
                     },
                     {
-                        "Date": "01/19/2022",
-                        "Status": "Awaiting Sentencing",
+                        "Status Date": "01/19/2022",
+                        "Processing Status": "Awaiting Sentencing",
                     },
                     {
-                        "Date": "01/11/2022",
-                        "Status": "Awaiting Plea",
+                        "Status Date": "01/11/2022",
+                        "Processing Status": "Awaiting Plea",
                     },
                 ],
             },
@@ -880,24 +886,24 @@ dicts = [
                 "Case Status": "Closed",
                 "Items": [
                     {
-                        "Date": "01/18/2022",
-                        "Status": "Completed",
+                        "Status Date": "01/18/2022",
+                        "Processing Status": "Completed",
                     },
                     {
-                        "Date": "01/18/2022",
-                        "Status": "Case Balance Due",
+                        "Status Date": "01/18/2022",
+                        "Processing Status": "Case Balance Due",
                     },
                     {
-                        "Date": "01/15/2022",
-                        "Status": "Case Disposed/Penalty Imposed",
+                        "Status Date": "01/15/2022",
+                        "Processing Status": "Case Disposed/Penalty Imposed",
                     },
                     {
-                        "Date": "01/15/2022",
-                        "Status": "Awaiting Sentencing",
+                        "Status Date": "01/15/2022",
+                        "Processing Status": "Awaiting Sentencing",
                     },
                     {
-                        "Date": "01/12/2022",
-                        "Status": "Awaiting Plea",
+                        "Status Date": "01/12/2022",
+                        "Processing Status": "Awaiting Plea",
                     },
                 ],
             },
