@@ -79,7 +79,6 @@ doc = [
 ]
 
 [tool.poetry.dev-dependencies]
-tox-poetry-installer = { extras = ["poetry"], version = "^0.8.3" }
 [tool.black]
 line-length = 88
 skip-string-normalization = true
